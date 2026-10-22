@@ -1,0 +1,14 @@
+name: AvesEconomy
+main: ru.aves.economy.AvesEconomy
+version: "1.0.0"
+api: ["2.0.0"]
+author: Aves
+description: AVC economy for Aves Project
+
+commands:
+  balance:
+    description: Показать баланс AVC
+    usage: "/balance"
+  avc:
+    description: Банковская карта AVC
+    usage: "/avc card"
